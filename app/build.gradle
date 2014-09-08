@@ -38,4 +38,6 @@ dependencies {
     compile 'com.android.support:support-v4:20.0.0'
     compile 'com.android.support:appcompat-v7:20.0.0'
     compile project(':pullToRefresh')
+    compile 'com.google.appengine:appengine-endpoints:1.9.1'
+    compile 'com.google.appengine:appengine-endpoints-deps:1.9.1'
 }
