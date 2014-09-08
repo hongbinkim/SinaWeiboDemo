@@ -24,7 +24,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by HongBinKim on 14-8-27.
+ * Created by HongBinKim on 14-8-27.\
+ * github test
  */
 public class ProfileSectionView extends RelativeLayout implements View.OnClickListener
 {
