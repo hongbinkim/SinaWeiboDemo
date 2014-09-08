@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SinaWeiboDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Message Fragment -->
+    <string name="message_mention">Mention</string>
+    <string name="message_comment">Comment</string>
+    <string name="message_like">Like</string>
+    <string name="message_box">From strangers</string>
+    <string name="reply">Reply</string>
+
+    <!-- WeiboDetail -->
+    <string name="repost_count">Repost</string>
+    <string name="comment_count">Comment</string>
+    <string name="like_count">Like</string>
+
+    <!-- Home Fragment -->
+    <string name="home_tips">After you follow someone, their latest weibo will be shown here</string>
+    <string name="visitor_home_sign_up">Sign Up</string>
+    <string name="visitor_home_login">Login</string>
+
+    <!-- Message Fragment -->
+    <string name="message_tips">Notifications of being mentioned, comments and private messages will be shown here</string>
+
+    <!-- Me Fragmen -->
+    <string name="me_tips">Your weibo,photo albums and profile will be shown here</string>
+
+    <!-- TabMenu -->
+    <string name="tab_home">Home</string>
+    <string name="tab_message">Message</string>
+    <string name="tab_more">More</string>
+    <string name="tab_discover">Discover</string>
+    <string name="tab_me">Me</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- time -->
+    <string name="year">year ago</string>
+    <string name="month">month ago</string>
+    <string name="day">day ago</string>
+    <string name="hour">hour ago</string>
+    <string name="min">mins ago</string>
+    <string name="sec">Just now</string>
+    <string name="justnow">Just now</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="the_day_before_yesterday">Before Yesterday</string>
+    <string name="today">Tody</string>
+    <string name="date_format">M.d HH:mm</string>
+    <string name="year_format">yyyy M.d HH:mm</string>
+    <string name="from">From:</string>
+    <string name="title_activity_mention">MentionActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+
+    <!-- Disocver Fragment -->
+    <string name="more_hot_topic">More Hot Topic</string>
+    <string name="hot_weibo">Hot Weibo</string>
+    <string name="new_friend">New Friend</string>
+    <string name="game">Game</string>
+    <string name="apps">Apps</string>
+    <string name="nearby">Nearby</string>
+    <string name="movie">Movie</string>
+    <string name="music">Music</string>
+    <string name="travel">Travel</string>
+    <string name="more">More</string>
+
+    <!-- Me Fragmen -->
+    <string name="weibo">Weibo</string>
+    <string name="follow">Follow</string>
+    <string name="follower">Follower</string>
+    <string name="new_friends">New Friends</string>
+    <string name="album">Album</string>
+    <string name="favorite">Favorite</string>
+    <string name="like">Like</string>
+    <string name="weibo_pay">Weibo Pay</string>
+    <string name="personalized_service">Personalized Service</string>
+    <string name="my_card">My Card</string>
+    <string name="my_draft_box">My Draft Box</string>
+
+    <!-- More Fragment -->
+    <string name="text">Text</string>
+    <string name="albums">Albums</string>
+    <string name="camera">Camera</string>
+    <string name="check_in">Check in</string>
+    <string name="review">Review</string>
+    <string name="friend_circle">Friend Circle</string>
+    <string name="audio_picture">Audio Picture</string>
+    <string name="miaopai">Miaopai</string>
+    <string name="flash_delete">Flash Delete</string>
+    <string name="blog">Blog</string>
+    <string name="collection">Collection</string>
+    <string name="title_activity_weibo_content">WeiboContentActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+</resources>

@@ -1,0 +1,124 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* PullToRefresh.iml
+* ant.properties
+* build.xml
+* out/
+* out/production/
+* out/production/PullToRefresh/
+* out/production/PullToRefresh/com/
+* out/production/PullToRefresh/com/handmark/
+* out/production/PullToRefresh/com/handmark/pulltorefresh/
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/BuildConfig.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/ILoadingLayout.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/IPullToRefresh.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/LoadingLayoutProxy.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/OverscrollHelper$1.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/OverscrollHelper.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase$1.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$1.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$2.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$3.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$4.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$AnimationStyle.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$Mode.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$OnLastItemVisibleListener.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$OnPullEventListener.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener2.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$OnSmoothScrollFinishedListener.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$Orientation.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$SmoothScrollRunnable.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase$State.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshBase.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListViewSDK9.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridViewSDK9.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshGridView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView$InternalHorizontalScrollViewSDK9.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshListView$1.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListViewSDK9.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshListView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshScrollView$InternalScrollViewSDK9.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshScrollView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshWebView$1.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshWebView$2.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshWebView$InternalWebViewSDK9.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/PullToRefreshWebView.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R$anim.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R$attr.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R$dimen.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R$drawable.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R$id.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R$layout.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R$string.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R$styleable.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/R.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/extras/
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2$JsValueCallback.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/extras/SoundPullEventListener.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/EmptyViewMethodAccessor.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout$1.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/IndicatorLayout$1.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/IndicatorLayout.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/LoadingLayout$1.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/LoadingLayout.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/RotateLoadingLayout.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/Utils.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK11.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK16.class
+* out/production/PullToRefresh/com/handmark/pulltorefresh/library/internal/ViewCompat.class
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => pullToRefresh/src/main/AndroidManifest.xml
+* res/ => pullToRefresh/src/main/res/
+* src/ => pullToRefresh/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

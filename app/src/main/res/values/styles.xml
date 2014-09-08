@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/MyAnimationActivity</item>
+        <item name="android:windowBackground">@color/fragment_back_color</item>
+    </style>
+
+    <style name="base_button">
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--More Text-->
+    <style name="more_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_11sp</item>
+        <item name="android:textColor">@color/font_intro</item>
+    </style>
+    <!--Visitor Button-->
+    <style name="visitor_button" parent="base_button">
+        <item name="android:layout_width">152dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:background">@drawable/common_button_big_white_back_selector</item>
+        <item name="android:textSize">@dimen/font_17sp</item>
+    </style>
+
+    <!--main_tab_bottom-->
+    <style name="main_tab_bottom">
+
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">@color/tab_btn_txt_color_selector</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="MyAnimationActivity">
+        <item name="android:activityOpenEnterAnimation">@anim/enter_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/exit_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/enter_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/exit_right</item>
+        <item name="android:taskOpenEnterAnimation">@anim/enter_right</item>
+        <item name="android:taskOpenExitAnimation">@anim/exit_left</item>
+        <item name="android:taskCloseEnterAnimation">@anim/enter_left</item>
+        <item name="android:taskCloseExitAnimation">@anim/exit_right</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/enter_right</item>
+        <item name="android:taskToFrontExitAnimation">@anim/exit_left</item>
+        <item name="android:taskToBackEnterAnimation">@anim/enter_left</item>
+        <item name="android:taskToBackExitAnimation">@anim/exit_right</item>
+    </style>
+    
+    
+    <style name="navigation_btn" parent="@style/Widget.AppCompat.Base.ActionButton">
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--Topic Item-->
+    <style name="topic_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/common_back_selector</item>
+        <item name="android:maxWidth">120dp</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/font_topic</item>
+        <item name="android:textSize">@dimen/font_15sp</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>

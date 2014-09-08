@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="2dp"
+        android:layout_marginTop="71dp"
+        android:id="@+id/avatar_image"
+        android:background="@drawable/widget_head_mask"
+        android:src="@drawable/avatar_default"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/vip_image"
+        android:src="@drawable/avatar_enterprise_vip"
+        android:layout_alignBottom="@+id/avatar_image"
+        android:layout_alignRight="@+id/avatar_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="耗这口"
+        android:id="@+id/nick_text"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/avatar_image"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/gender_image"
+        android:src="@drawable/userinfo_icon_male"
+        android:layout_alignTop="@+id/nick_text"
+        android:layout_toEndOf="@+id/nick_text"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_below="@+id/nick_text"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            style="@style/base_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Following 209"
+            android:gravity="right"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/follow_button"/>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="1.5dp"
+            android:background="@android:color/white"
+            android:id="@+id/line_image"/>
+
+        <Button
+            style="@style/base_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Follower 2m"
+            android:gravity="left"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/follower_button"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/login_top_background"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="About:极品爆料 , 娱乐八卦 , 电影解图【投稿, 工作请私信】"
+            android:id="@+id/intro_text"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/font_11sp"
+            android:textColor="@color/font_intro"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/intro_text"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:layout_marginRight="8dp"
+                android:clickable="true"
+                android:background="@drawable/pop_button_back_selector">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/userinfo_me_relationship_indicator_message"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/font_retweet_text"
+                    android:textSize="12sp"
+                    android:text="Chat"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:background="@drawable/pop_button_back_selector">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:src="@drawable/userinfo_relationship_indicator_tick_unfollow"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:textColor="@color/font_retweet_text"
+                    android:textSize="12sp"
+                    android:text="Following"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/userinfo_relationship_indicator_arrow_down"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</merge>

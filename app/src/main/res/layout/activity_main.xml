@@ -1,0 +1,119 @@
+<TabHost
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+        </TabWidget>
+
+        <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0">
+
+            <fragment android:name="com.hbk.sinaweibodemo.home.VisitorHomeFragment"
+                      android:id="@+id/visitor_home_tab"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      tools:layout="@layout/fragment_visitor_home"/>
+
+            <fragment android:name="com.hbk.sinaweibodemo.message.VisitorMessageFragment"
+                      android:id="@+id/visitor_message_tab"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      tools:layout="@layout/fragment_visitor_message"/>
+            <fragment android:name="com.hbk.sinaweibodemo.me.VisitorMeFragment"
+                      android:id="@+id/visitor_me_tab"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      tools:layout="@layout/fragment_visitor_me"/>
+            <fragment android:name="com.hbk.sinaweibodemo.home.HomeFragment"
+                      android:id="@+id/home_tab"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      tools:layout="@layout/fragment_home"/>
+            <fragment android:name="com.hbk.sinaweibodemo.message.MessageFragment"
+                      android:id="@+id/message_tab"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      tools:layout="@layout/fragment_home"/>
+            <fragment android:name="com.hbk.sinaweibodemo.discover.DiscoverFragment"
+                      android:id="@+id/discover_tab"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      tools:layout="@layout/fragment_home"/>
+            <fragment android:name="com.hbk.sinaweibodemo.me.MeFragment"
+                      android:id="@+id/me_tab"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      tools:layout="@layout/fragment_home"/>
+
+
+
+
+        </FrameLayout>
+        <RadioGroup
+                android:id="@+id/tab_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_gravity="bottom"
+                android:background="@drawable/tabbar_background">
+            <com.hbk.sinaweibodemo.ui.TabButton
+                    android:id="@+id/tab_home"
+                    style="@style/main_tab_bottom"
+                    android:text="@string/tab_home"
+                    app:image="@drawable/tabbar_home"
+                    app:checkedImage="@drawable/tabbar_home_selected"/>
+            <com.hbk.sinaweibodemo.ui.TabButton
+                    android:id="@+id/tab_message"
+                    style="@style/main_tab_bottom"
+                    android:text="@string/tab_message"
+                    app:image="@drawable/tabbar_message_center"
+                    app:checkedImage="@drawable/tabbar_message_center_selected"/>
+            <com.hbk.sinaweibodemo.ui.TabButton
+                    android:id="@+id/tab_more"
+                    style="@style/main_tab_bottom"
+                    android:background="@drawable/tab_more_back_selector"
+                    app:image="@drawable/tabbar_compose_icon_add"
+                    app:checkedImage="@drawable/tabbar_compose_icon_add"
+                    />
+            <com.hbk.sinaweibodemo.ui.TabButton
+                    android:id="@+id/tab_discover"
+                    style="@style/main_tab_bottom"
+                    android:text="@string/tab_discover"
+                    app:image="@drawable/tabbar_discover"
+                    app:checkedImage="@drawable/tabbar_discover_selected"/>
+            <com.hbk.sinaweibodemo.ui.TabButton
+                    android:id="@+id/tab_me"
+                    style="@style/main_tab_bottom"
+                    android:text="@string/tab_me"
+                    app:image="@drawable/tabbar_profile"
+                    app:checkedImage="@drawable/tabbar_profile_selected"/>
+        </RadioGroup>
+    </LinearLayout>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        class="com.hbk.sinaweibodemo.ui.MoreView"
+        android:background="@drawable/common_back_selector"
+        android:id="@+id/more_view"/>
+</TabHost>
+

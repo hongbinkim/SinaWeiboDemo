@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+
+
+
+    <color name="tab_btn_txt_color">#5F5F5F</color>
+    <color name="tab_btn_txt_color_checked">#FFA426</color>
+
+    <color name="table_cell_back">#F8F8F8</color>
+    <!--<color name="table_cell_back">#FCFCFC</color>-->
+
+    <color name="table_cell_line">#E6E6E6</color>
+    <color name="table_cell_back_highlighted">#F2F2F2</color>
+
+    <!--Font Color-->
+    <color name="font_normal">#5F5F5F</color>
+    <color name="font_active">#FFA426</color>
+    <color name="font_hint">#A8A8A8</color>
+    <color name="font_nick">#343434</color>
+    <color name="font_date">#F28723</color>
+    <color name="font_source">#7E7E7E</color>
+    <color name="font_text">#333333</color>
+    <color name="font_retweet_text">#5D5D5D</color>
+    <color name="font_status_detail">#929292</color>
+    <color name="font_topic">#373737</color>
+    <color name="font_discover">#363636</color>
+    <color name="font_intro">#828282</color>
+    <!--Font Color End-->
+
+    <!--Fragment Background Color-->
+    <color name="fragment_back_color">#ECECEC</color>
+</resources>

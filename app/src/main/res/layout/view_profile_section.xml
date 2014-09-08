@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp">
+
+    <RadioGroup
+        android:id="@+id/section_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+
+        <RadioButton
+            android:id="@+id/profile_radio"
+            android:button="@null"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Profile"
+            android:textSize="@dimen/font_15sp"
+            android:textColor="@color/profile_section_text_color_selector"/>
+
+        <RadioButton
+            android:id="@+id/weibo_radio"
+            android:button="@null"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Weibo"
+            android:textSize="@dimen/font_15sp"
+            android:textColor="@color/profile_section_text_color_selector"/>
+
+        <RadioButton
+            android:id="@+id/album_radio"
+            android:button="@null"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Album"
+            android:textSize="@dimen/font_15sp"
+            android:textColor="@color/profile_section_text_color_selector"/>
+
+    </RadioGroup>
+    <ImageView
+        android:id="@+id/bar_image"
+        android:layout_width="45dp"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FD9409"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabButton">
+        <attr name="image" format="reference"/>
+        <attr name="checkedImage" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="MoreItem">
+        <attr name="imageSrc" format="reference"/>
+        <attr name="titleText" format="string"/>
+    </declare-styleable>
+</resources>

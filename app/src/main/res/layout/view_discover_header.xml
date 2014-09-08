@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+
+              android:background="@drawable/hot_topic_back">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            style="@style/topic_item"
+            android:layout_marginRight="0.5dp"
+            android:id="@+id/topic1"/>
+
+        <TextView
+            style="@style/topic_item"
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/topic2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1.5dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            style="@style/topic_item"
+            android:layout_marginRight="0.5dp"
+            android:id="@+id/topic3"/>
+
+        <TextView
+            style="@style/topic_item"
+            android:layout_marginLeft="0.5dp"
+            android:text="@string/more_hot_topic"
+            android:id="@+id/topic4"/>
+    </LinearLayout>
+</LinearLayout>

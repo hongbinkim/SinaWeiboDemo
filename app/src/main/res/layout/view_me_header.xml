@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/fragment_back_color"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_card_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="@drawable/common_back_selector"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/avatar_image"
+                android:src="@drawable/avatar_default"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="HongBinKim"
+                android:id="@+id/nick_text"
+                android:textColor="@color/font_nick"
+                android:textSize="@dimen/font_17sp"
+                android:layout_alignTop="@+id/avatar_image"
+                android:layout_toEndOf="@+id/avatar_image"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/vip_image"
+                android:src="@drawable/userinfo_membership_expired"
+                android:layout_alignTop="@+id/nick_text"
+                android:layout_toEndOf="@+id/nick_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Small Text"
+                android:id="@+id/intro_text"
+                android:textSize="@dimen/font_11sp"
+                android:textColor="@color/font_intro"
+                android:layout_below="@+id/nick_text"
+                android:layout_alignStart="@+id/nick_text"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/arrow_image"
+                android:src="@drawable/common_icon_arrow"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/line_image"
+                android:background="@color/table_cell_line"
+                android:layout_below="@+id/avatar_image"
+                android:layout_alignParentStart="true"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/common_back_selector"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/weibo_count_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|bottom"
+                    android:textColor="@color/font_topic"
+                    android:textSize="@dimen/font_15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/weibo"
+                    android:textSize="@dimen/font_13sp"
+                    android:textColor="@color/font_intro"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/common_back_selector"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/follow_count_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/font_topic"
+                    android:textSize="@dimen/font_15sp"
+                    android:gravity="center_horizontal|bottom"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/follow"
+                    android:textSize="@dimen/font_13sp"
+                    android:textColor="@color/font_intro"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/common_back_selector"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/follower_count_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/font_topic"
+                    android:textSize="@dimen/font_15sp"
+                    android:gravity="center_horizontal|bottom"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/follower"
+                    android:textSize="@dimen/font_13sp"
+                    android:textColor="@color/font_intro"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
