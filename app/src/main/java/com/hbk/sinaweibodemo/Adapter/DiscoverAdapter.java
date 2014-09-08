@@ -20,6 +20,7 @@ import java.util.List;
 
 /**
  * Created by HongBinKim on 14/8/19.
+ * github test
  */
 public class DiscoverAdapter extends BaseAdapter
 {
