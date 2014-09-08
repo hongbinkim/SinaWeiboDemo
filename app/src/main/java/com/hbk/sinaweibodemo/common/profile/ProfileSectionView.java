@@ -146,6 +146,8 @@ public class ProfileSectionView extends RelativeLayout implements View.OnClickLi
         });
     }
 
+    //is git git test
+
     public void setSectionView(ProfileSectionView sectionView)
     {
         this.sectionView = sectionView;
