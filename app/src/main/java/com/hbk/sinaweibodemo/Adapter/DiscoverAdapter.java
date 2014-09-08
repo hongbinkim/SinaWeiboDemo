@@ -70,6 +70,11 @@ public class DiscoverAdapter extends BaseAdapter
         return 0;
     }
 
+    public void setTest()
+    {
+        String s = "GitHub";
+    }
+
     static class ViewHolder{
         ImageView lineImageView;
         ImageView lineImageView2;
