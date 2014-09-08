@@ -72,7 +72,7 @@ public class DiscoverAdapter extends BaseAdapter
 
     public void setTest()
     {
-        String s = "GitHub";
+
     }
 
     static class ViewHolder{
